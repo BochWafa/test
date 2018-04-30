@@ -8,3 +8,5 @@ deploy:
  api-key: 
   secure: 828fd708-9607-4fad-909d-0ba9a42f7c85
  app: backendapp
+ edge:
+    branch: master
