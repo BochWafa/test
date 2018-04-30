@@ -1,10 +1,14 @@
 language: java
 jdk:
  - oraclejdk8
+<<<<<<< HEAD
 before_install:
+=======
+ before_install:
+>>>>>>> 0c26d9da32fcfd26497506d0d2904d436a3a5392
   - chmod +x mvnw
 deploy:
  provider: heroku
  api-key: 
-  secure: "F4fQnVRmBB/z9RQtMiMVHSB2JAI3FAo//4J3VLKaXu9thSjIxkGtzhqjGjJXuTPF0dLFTf6tofiR9zSyjC1XftDDQz4Ar9xfEgnjhAOcgFEx7Y82ZexqIc+botjcSgXM9Rq8sa8Kq9YHijvF9CXdzq8tZ6qr7saz1AHMp/0+82uVuYf13xygNwH6OPxmO7qrR1pU/KXYbWr0E83Xee7oQ9rkt8AjP/APNWwEQTPYTj9r0z6hQELab7XNZZkJKeG170bWi43vm4JlAjLXsxU0amNssUNvTkiUOX4nSce1+bQE2G0613+akoWaJT8GuGZMHFsnFJyyk1VzwaBY12vOoTPsO2nmBT+NqnIKyZ8f3Wrxpsf6x69vH+00cMEr26ndmbPDidBxRLK+PgYVMf7zRqg2RR7OwRfNoahTQLXFNaPtvvBs0RBYqgHVaT59OoFhvundHeswJ7+qbKicSoDeJI2A7ZRyHo+OqquoJWSo2XDQhyGgf4SiTbrRUivQDbkSGH3p3H9Lmr6b2SUxZa6T+sTWJJJvMEavhsOinx72qYdBjPKKD+GmUPChQAyek3bWYCLmYVfj6/dqHb3dcvyHgtPqpojoZGof4XnK1OARKQK/aymrfIWZZ7NFI+fyfGtfe9dZ+ovneNKYFWZol+hKTWqU6mOGk+hdIHlmO1fOZiU="
+  secure: 828fd708-9607-4fad-909d-0ba9a42f7c85
  app: backendapp
