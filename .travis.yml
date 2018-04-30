@@ -1,11 +1,7 @@
 language: java
 jdk:
  - oraclejdk8
-<<<<<<< HEAD
 before_install:
-=======
- before_install:
->>>>>>> 0c26d9da32fcfd26497506d0d2904d436a3a5392
   - chmod +x mvnw
 deploy:
  provider: heroku
