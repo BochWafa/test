@@ -21,6 +21,8 @@ public class BackendApplication implements CommandLineRunner{
 userRepository.save(new User("wafa","Bouchami"));	
 userRepository.save(new User("Sarra","Bouchami"));
 userRepository.save(new User("Nawel","Ben Chaabene"));	
-userRepository.save(new User("x","y"));
+userRepository.save(new User("mezni","yesmine"));
+userRepository.save(new User("fairouz","zorgui"));
+
 }
 }
