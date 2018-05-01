@@ -1,12 +1,12 @@
 language: java
 jdk:
- - oraclejdk8
+  - oraclejdk8
 before_install:
   - chmod +x mvnw
 deploy:
- provider: heroku
- api-key: 
-  secure: 828fd708-9607-4fad-909d-0ba9a42f7c85
- app: backendppp
- edge:
+  provider: heroku
+  api-key: 
+    secure: 828fd708-9607-4fad-909d-0ba9a42f7c85
+  app: backendppp
+  edge:
     branch: master
